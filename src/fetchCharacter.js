@@ -12,7 +12,7 @@ const fetchCharacter = async (id) => {
   } catch (error) {
     // Caso algo aconteça e nossa requisição não seja realizada com sucesso
     // capturamos e retornamos essa exceção.
-    return error;
+    return error; 
   }
 };
 
@@ -25,6 +25,7 @@ const fetchCharacter = async (id) => {
 
 //     return promise;
 // };
+
 
 module.exports = {
   fetchCharacter,
